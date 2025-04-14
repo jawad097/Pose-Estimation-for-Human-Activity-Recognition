@@ -1,0 +1,17 @@
+Classification Report:
+              precision    recall  f1-score   support
+
+     lunging       1.00      1.00      1.00        20
+raising_arms       0.43      0.50      0.47        20
+     sitting       1.00      0.95      0.97        20
+   squatting       0.95      1.00      0.98        20
+    standing       0.41      0.35      0.38        20
+     walking       1.00      1.00      1.00        20
+
+    accuracy                           0.80       120
+   macro avg       0.80      0.80      0.80       120
+weighted avg       0.80      0.80      0.80       120
+
+
+Best Parameters:
+{'max_depth': None, 'min_samples_split': 10, 'n_estimators': 50}
